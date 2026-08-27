@@ -11,6 +11,15 @@
  */
 const BRAND_NAME = "Immigration Expert Witnesses";
 
+
+function getSiteDomain() {
+  const raw = process.env.NEXT_PUBLIC_SITE_URL || "https://immigrationexpertwitnesses.com";
+  try {
+    return new URL(raw).hostname.replace(/^www\./, "");
+  } catch {
+    return "immigrationexpertwitnesses.com";
+  }
+}
 function getLeadNotificationUrl() {
   return (
     process.env.Lead_notification_url?.trim() ||
@@ -78,6 +87,7 @@ exports.handler = async (event) => {
     Email: parsed.ok.email.trim(),
     "Phone Number": parsed.ok.phone.trim(),
     "Brand name": BRAND_NAME,
+    domain: getSiteDomain(),
   };
 
   const ac = new AbortController();
