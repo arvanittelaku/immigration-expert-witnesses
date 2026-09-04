@@ -78,10 +78,10 @@ function hubPagePath(route: string): string {
 export function verifySeoArchitecture(): ArchIssue[] {
   const issues: ArchIssue[] = [];
 
-  if (SITE_URL !== "https://www.immigrationexpertwitnesses.com") {
+  if (SITE_URL !== "https://immigrationexpertwitnesses.com") {
     issues.push({
       level: "warn",
-      message: `SITE_URL should be https://www.immigrationexpertwitnesses.com (got ${SITE_URL})`,
+      message: `SITE_URL should be https://immigrationexpertwitnesses.com (got ${SITE_URL})`,
     });
   }
 

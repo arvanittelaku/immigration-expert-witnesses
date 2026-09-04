@@ -274,7 +274,7 @@ export const witnessTypes: ContentPage[] = [
     ],
     relatedLinks: [
       { label: "Country guidance challenges", href: "/case-types/country-guidance-challenges" },
-      { label: "Sister hub: report standards", href: "https://www.immigrationexpertreports.com/cpin-and-country-guidance" },
+      { label: "Sister hub: report standards", href: "https://immigrationexpertreports.com/cpin-and-country-guidance" },
       { label: "Expert witness framework", href: "/expert-witness-framework" },
     ],
   },

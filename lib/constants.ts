@@ -1,9 +1,30 @@
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://www.immigrationexpertwitnesses.com";
+const DEFAULT_SITE_URL = "https://immigrationexpertwitnesses.com";
+
+/** Canonical origin for SEO — strips www; ignores localhost/netlify preview env. */
+export function getPublicSiteUrl(): string {
+  const fallback = DEFAULT_SITE_URL;
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (!raw) return fallback;
+  try {
+    const u = new URL(/^https?:\/\//i.test(raw) ? raw : `https://${raw}`);
+    if (
+      u.hostname === "localhost" ||
+      u.hostname === "127.0.0.1" ||
+      u.hostname.endsWith(".netlify.app")
+    ) {
+      return fallback;
+    }
+    u.hostname = u.hostname.replace(/^www\./i, "");
+    return u.origin.replace(/\/$/, "");
+  } catch {
+    return fallback;
+  }
+}
+
+export const SITE_URL = getPublicSiteUrl();
 export const SITE_NAME = "Immigration Expert Witnesses";
 export const SITE_EMAIL = "cases@immigrationexpertwitnesses.com";
-export const SISTER_HUB_URL = "https://www.immigrationexpertreports.com";
+export const SISTER_HUB_URL = "https://immigrationexpertreports.com";
 export const LINKEDIN_URL =
   "https://www.linkedin.com/company/immigrationexpertwitnesses";
 

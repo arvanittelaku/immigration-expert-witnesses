@@ -183,7 +183,7 @@ export const guides: ContentPage[] = [
       },
     ],
     relatedLinks: [
-      { label: "Sister hub: Immigration Expert Reports", href: "https://www.immigrationexpertreports.com" },
+      { label: "Sister hub: Immigration Expert Reports", href: "https://immigrationexpertreports.com" },
       { label: "What is an expert witness?", href: "/what-is-an-immigration-expert-witness" },
       { label: "Expert witness framework", href: "/expert-witness-framework" },
     ],

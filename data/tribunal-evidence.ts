@@ -61,7 +61,7 @@ export const tribunalEvidence: ContentPage[] = [
     relatedLinks: [
       { label: "Expert witness framework", href: "/expert-witness-framework" },
       { label: "How to instruct", href: "/how-to-instruct" },
-      { label: "Sister hub: report standards", href: "https://www.immigrationexpertreports.com/report-standards" },
+      { label: "Sister hub: report standards", href: "https://immigrationexpertreports.com/report-standards" },
     ],
   },
   {

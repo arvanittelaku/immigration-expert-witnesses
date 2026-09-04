@@ -91,7 +91,7 @@ export const networkSites: NetworkSite[] = [
   },
   {
     name: "Immigration Expert Reports",
-    url: "https://www.immigrationexpertreports.com",
+    url: "https://immigrationexpertreports.com",
     role: "Sister hub",
     description:
       "Report standards, report types, CPIN framework, Practice Direction 2024 compliance, and Adam Pipe 2025 report structure — the complementary reports master hub.",
