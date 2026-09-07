@@ -18,8 +18,17 @@ export function Footer() {
 
         <nav
           className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-slate"
-          aria-label="Legal"
+          aria-label="Footer"
         >
+          <Link href="/faq" className="inline-flex min-h-[44px] items-center hover:text-ink">
+            FAQ
+          </Link>
+          <Link href="/services" className="inline-flex min-h-[44px] items-center hover:text-ink">
+            Services
+          </Link>
+          <Link href="/fees" className="inline-flex min-h-[44px] items-center hover:text-ink">
+            Fees
+          </Link>
           <Link href="/privacy" className="inline-flex min-h-[44px] items-center hover:text-ink">
             Privacy
           </Link>

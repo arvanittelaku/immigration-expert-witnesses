@@ -6,9 +6,9 @@ import { createMetadata } from "@/lib/metadata";
 import { services } from "@/data/services";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Services | Tribunal Evidence",
+  title: "Immigration Expert Witness Services",
   description:
-    "Immigration expert witness services — country condition, persecution analysis, human rights, linguistic identity, oral evidence, joint meetings, CPIN challenge, and expedited instruction.",
+    "Expert witness services for tribunals — country conditions, persecution, human rights, linguistic identity, oral evidence, and CPIN challenge.",
   path: "/services",
 });
 

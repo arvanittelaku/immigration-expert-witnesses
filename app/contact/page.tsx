@@ -6,9 +6,9 @@ import { createMetadata } from "@/lib/metadata";
 import { SITE_EMAIL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Contact Immigration Expert Witnesses | Instruct an Expert",
+  title: "Contact | Instruct an Expert Witness",
   description:
-    "Instruct an immigration expert witness for tribunal proceedings. Country condition, persecution, human rights, linguistic identity, and oral evidence witnesses. Legal Aid compatible.",
+    "Instruct an immigration expert witness for tribunal proceedings. Country condition, persecution, human rights, and oral evidence. Legal Aid compatible.",
   path: "/contact",
   noindex: true,
   follow: true,

@@ -28,12 +28,11 @@ export const viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default:
-      "Immigration Expert Witness | Country & Asylum Experts for Immigration Tribunals",
+    default: "Immigration Expert Witnesses | Tribunal Evidence",
     template: "%s | Immigration Expert Witnesses",
   },
   description:
-    "Find qualified immigration expert witnesses for tribunal proceedings. Country condition witnesses, persecution analysis, human rights experts, linguistic identity, and oral evidence at first-tier and upper tribunals. CPR Part 35 compliant. Legal Aid compatible.",
+    "Find qualified immigration expert witnesses for tribunal proceedings — country conditions, persecution, human rights, and oral evidence. CPR Part 35.",
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
     other: process.env.BING_SITE_VERIFICATION
@@ -41,10 +40,21 @@ export const metadata: Metadata = {
       : undefined,
   },
   alternates: {
+    canonical: SITE_URL,
     languages: {
       en: SITE_URL,
+      "en-GB": SITE_URL,
       "x-default": SITE_URL,
     },
+  },
+  openGraph: {
+    siteName: "Immigration Expert Witnesses",
+    url: SITE_URL,
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
   robots: isProductionSite() ? { index: true, follow: true } : { index: false, follow: false },
 };

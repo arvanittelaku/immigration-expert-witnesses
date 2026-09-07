@@ -5,9 +5,9 @@ import { createMetadata } from "@/lib/metadata";
 import { siteFaqs } from "@/data/faq";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness FAQ | Tribunal Evidence Questions",
+  title: "Immigration Expert Witness FAQ",
   description:
-    "Frequently asked questions about immigration expert witnesses — CPR Part 35, Practice Direction 2024, oral evidence, Legal Aid, witness types, and CPIN challenge.",
+    "FAQ on immigration expert witnesses — CPR Part 35, oral evidence, Legal Aid, witness types, and CPIN challenge for tribunal cases.",
   path: "/faq",
 });
 

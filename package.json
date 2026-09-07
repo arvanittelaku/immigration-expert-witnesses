@@ -10,7 +10,9 @@
     "lint": "eslint",
     "seo:generate": "tsx scripts/generate-seo.ts",
     "seo:verify": "tsx scripts/verify-seo.ts",
-    "sheets:test": "tsx scripts/test-sheets.ts"
+    "indexnow": "tsx scripts/submit-indexnow.ts",
+    "sheets:test": "tsx scripts/test-sheets.ts",
+    "postbuild": "npm run indexnow"
   },
   "dependencies": {
     "googleapis": "^173.0.0",

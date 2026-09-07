@@ -6,9 +6,9 @@ import { CATEGORY_META } from "@/lib/cookies/constants";
 import { SITE_EMAIL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Cookie Policy | Immigration Expert Witnesses",
+  title: "Cookie Policy",
   description:
-    "How ImmigrationExpertWitnesses.com uses cookies and similar technologies, your choices under applicable data protection laws and ePrivacy, and how to manage preferences.",
+    "How Immigration Expert Witnesses uses cookies, your choices under data protection and ePrivacy rules, and how to manage preferences.",
   path: "/cookie-policy",
   noindex: true,
   follow: true,

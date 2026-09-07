@@ -5,9 +5,9 @@ import { createMetadata } from "@/lib/metadata";
 import { SISTER_HUB_URL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "What Is an Immigration Expert Witness? | Tribunal Role & Qualifications",
+  title: "What Is an Immigration Expert Witness?",
   description:
-    "An immigration expert witness provides independent country condition, persecution, and human rights evidence for immigration tribunals — with a paramount duty to the tribunal, not the instructing party.",
+    "An immigration expert witness provides independent country, persecution, and human rights evidence for tribunals — with a duty to the tribunal, not the party.",
   path: "/what-is-an-immigration-expert-witness",
 });
 

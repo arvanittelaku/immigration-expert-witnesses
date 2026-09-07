@@ -6,9 +6,9 @@ import { createMetadata } from "@/lib/metadata";
 import { guides } from "@/data/guides";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Guides | Solicitor Resources",
+  title: "Immigration Expert Witness Guides",
   description:
-    "Solicitor guides for instructing immigration expert witnesses — CPR Part 35, oral evidence, Legal Aid, witness selection, and witness vs report differentiation.",
+    "Solicitor guides for instructing immigration expert witnesses — CPR Part 35, oral evidence, Legal Aid, and witness selection.",
   path: "/guides",
 });
 

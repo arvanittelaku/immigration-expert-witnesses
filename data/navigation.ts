@@ -56,6 +56,11 @@ export const resourcesNavLinks: NavLink[] = [
     blurb: "Deadlines, letters of instruction, LAA.",
   },
   {
+    label: "FAQ",
+    href: "/faq",
+    blurb: "Common instruction and tribunal questions.",
+  },
+  {
     label: "Qualifications",
     href: "/qualifications",
     blurb: "What tribunals expect to see.",

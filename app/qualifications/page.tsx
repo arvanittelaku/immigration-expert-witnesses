@@ -4,9 +4,9 @@ import { PageJsonLd } from "@/components/seo/PageJsonLd";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Qualifications | Credentials & Standards",
+  title: "Expert Witness Qualifications",
   description:
-    "Immigration expert witness qualifications — field research, tribunal acceptance, language proficiency, academic credentials, CPR Part 35 compliance, and continuing professional development.",
+    "Immigration expert witness qualifications — field research, tribunal acceptance, language skills, and CPR Part 35 compliance.",
   path: "/qualifications",
 });
 

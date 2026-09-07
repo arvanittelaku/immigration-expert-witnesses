@@ -4,9 +4,9 @@ import { PageJsonLd } from "@/components/seo/PageJsonLd";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
-  title: "How to Instruct an Immigration Expert Witness | Solicitor Guide",
+  title: "How to Instruct an Expert Witness",
   description:
-    "How to instruct an immigration expert witness — letter of instruction, documents, timing, fee estimates, Legal Aid prior authority, and network routing to specialist witnesses.",
+    "How to instruct an immigration expert witness — letter of instruction, documents, timing, fees, and Legal Aid prior authority.",
   path: "/how-to-instruct",
 });
 

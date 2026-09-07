@@ -2,8 +2,9 @@ import Link from "next/link";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
-  title: "Thank You | Immigration Expert Witnesses",
-  description: "Your expert witness instruction request has been received. We will respond within one business day.",
+  title: "Thank You",
+  description:
+    "Your expert witness instruction request has been received. We will respond within one business day.",
   path: "/thank-you",
   noindex: true,
   follow: false,

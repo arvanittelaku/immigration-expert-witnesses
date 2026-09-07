@@ -9,10 +9,9 @@ import { createMetadata } from "@/lib/metadata";
 import { SISTER_HUB_URL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title:
-    "Immigration Expert Witness | Country & Asylum Experts for Immigration Tribunals",
+  title: "Immigration Expert Witnesses | Tribunal Evidence",
   description:
-    "Find qualified immigration expert witnesses for tribunal proceedings. Country condition witnesses, persecution analysis, human rights experts, linguistic identity, and oral evidence at FTT and Upper Tribunal. CPR Part 35 compliant. Legal Aid compatible.",
+    "Find qualified immigration expert witnesses for tribunal proceedings — country conditions, persecution, human rights, and oral evidence. CPR Part 35.",
   path: "/",
 });
 

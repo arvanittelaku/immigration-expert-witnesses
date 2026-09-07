@@ -6,9 +6,9 @@ import { createMetadata } from "@/lib/metadata";
 import { caseTypes } from "@/data/case-types";
 
 export const metadata = createMetadata({
-  title: "Immigration Case Types & Expert Witnesses | Tribunal Guide",
+  title: "Immigration Case Types & Expert Witnesses",
   description:
-    "Expert witnesses for FTT asylum appeals, Upper Tribunal, deportation, fresh claims, human rights, country guidance challenges, judicial review, and administrative review.",
+    "Expert witnesses for FTT asylum appeals, Upper Tribunal, deportation, fresh claims, human rights, and judicial review.",
   path: "/case-types",
 });
 

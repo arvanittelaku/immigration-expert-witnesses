@@ -3,8 +3,9 @@ import { createMetadata } from "@/lib/metadata";
 import { SITE_EMAIL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Privacy Policy | Immigration Expert Witnesses",
-  description: "Privacy policy for immigrationexpertwitnesses.com — how we collect, use, and protect your personal data.",
+  title: "Privacy Policy",
+  description:
+    "Privacy policy for Immigration Expert Witnesses — how we collect, use, and protect personal data from case enquiries.",
   path: "/privacy",
   noindex: true,
   follow: true,

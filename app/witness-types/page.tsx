@@ -7,9 +7,9 @@ import { createMetadata } from "@/lib/metadata";
 import { witnessTypes } from "@/data/witness-types";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Types | Country, Persecution & Human Rights",
+  title: "Immigration Expert Witness Types",
   description:
-    "Eight immigration expert witness disciplines for tribunals — country condition, persecution analysis, human rights, linguistic identity, internal relocation, CPIN challenge, medical coordination, and oral evidence.",
+    "Eight immigration expert witness disciplines — country condition, persecution, human rights, linguistic identity, relocation, CPIN challenge, and oral evidence.",
   path: "/witness-types",
 });
 

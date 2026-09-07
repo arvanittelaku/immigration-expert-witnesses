@@ -7,9 +7,9 @@ import { networkSites } from "@/data/network-sites";
 import { SISTER_HUB_URL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Network | Country & Thematic Expert Witness Directory",
+  title: "Immigration Expert Witness Network",
   description:
-    "Complete directory of immigration expert witness sites — Somalia, Nigeria, Pakistan, Africa, Albania, South Asia, persecution, and human rights expert witnesses for asylum and deportation cases.",
+    "Directory of immigration expert witness sites — country and thematic specialists for asylum and deportation cases across the UK.",
   path: "/network",
 });
 

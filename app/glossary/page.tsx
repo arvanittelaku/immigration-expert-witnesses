@@ -6,9 +6,9 @@ import { glossaryTerms } from "@/data/glossary";
 import { glossaryAnchorId } from "@/lib/glossary";
 
 export const metadata = createMetadata({
-  title: "Immigration Expert Witness Glossary | Tribunal Terms",
+  title: "Expert Witness Glossary",
   description:
-    "Glossary of immigration expert witness terms — CPR Part 35, Ikarian Reefer, Practice Direction 2024, Country Guidance, CPIN, oral evidence, and tribunal procedures.",
+    "Glossary of immigration expert witness terms — CPR Part 35, Practice Direction, Country Guidance, CPIN, and tribunal procedure.",
   path: "/glossary",
 });
 

@@ -7,10 +7,9 @@ import { articleSchema } from "@/lib/schema";
 import { SISTER_HUB_URL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title:
-    "Immigration Expert Witness Framework | CPR Part 35 & Tribunal Duties 2025–2026",
+  title: "Expert Witness Framework | CPR Part 35",
   description:
-    "Complete guide to immigration expert witness duties under CPR Part 35, Ikarian Reefer, Practice Direction 2024, and Adam Pipe 2025 — independence, report standards, and tribunal obligations for solicitors.",
+    "Immigration expert witness duties under CPR Part 35, Practice Direction 2024, and tribunal independence standards for solicitors.",
   path: "/expert-witness-framework",
 });
 

@@ -3,8 +3,9 @@ import { createMetadata } from "@/lib/metadata";
 import { SITE_EMAIL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Terms of Use | Immigration Expert Witnesses",
-  description: "Terms of use for immigrationexpertwitnesses.com — website terms, limitations, and instruction process.",
+  title: "Terms of Use",
+  description:
+    "Terms of use for Immigration Expert Witnesses — website terms, limitations, and the expert witness instruction process.",
   path: "/terms",
   noindex: true,
   follow: true,

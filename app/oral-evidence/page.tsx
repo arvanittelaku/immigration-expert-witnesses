@@ -7,9 +7,9 @@ import { articleSchema } from "@/lib/schema";
 import { SISTER_HUB_URL } from "@/lib/constants";
 
 export const metadata = createMetadata({
-  title: "Oral Evidence by Immigration Expert Witnesses | Tribunal Guide",
+  title: "Oral Evidence at Immigration Tribunals",
   description:
-    "Complete guide to oral evidence by immigration expert witnesses at FTT and UT hearings — when directed, preparation, cross-examination, joint expert meetings, and supplementary testimony.",
+    "Oral evidence by immigration expert witnesses at FTT and UT — when directed, preparation, cross-examination, and joint expert meetings.",
   path: "/oral-evidence",
 });
 
