@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form detection</title>
+  </head>
+  <body>
+    <!-- Static blueprint for Netlify form detection. Not linked in the UI. -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="law_firm" />
+      <select name="witness_type">
+        <option value="Country Condition">Country Condition</option>
+        <option value="Persecution">Persecution</option>
+        <option value="Human Rights">Human Rights</option>
+        <option value="Linguistic/Identity">Linguistic/Identity</option>
+        <option value="Internal Relocation">Internal Relocation</option>
+        <option value="CPIN Challenge">CPIN Challenge</option>
+        <option value="Medical Coordination">Medical Coordination</option>
+        <option value="Oral Evidence">Oral Evidence</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="summary"></textarea>
+    </form>
+  </body>
+</html>
